@@ -1,0 +1,10 @@
+<h1>My Family Tree 👪🌳</h1>
+
+{% for member in members %}
+
+<h2>The family member is: {{ member.name }} {{ member.last_name }}</h2>
+<h3>The age is: {{ member.age }}</h3>
+<h4>Member of the family since: {{ member.birth_date }}</h4>
+
+
+{% endfor %}
